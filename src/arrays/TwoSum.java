@@ -2,6 +2,7 @@ package arrays;
 
 public class TwoSum {
     public static void main(String[] args) {
-        System.out.println("How");
+        // Two Sum Problem using HashMap
+        System.out.println("Hello World");
     }
 }
