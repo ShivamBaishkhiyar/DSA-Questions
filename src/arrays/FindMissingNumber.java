@@ -13,10 +13,10 @@ public class FindMissingNumber {
     private static int findMissingNumberUsingXOR(int[] arr) {
         int res = 0;
         for (int i = 0; i < arr.length; i++) {
-            res = res ^ arr[i]^i;
+            res = res ^ arr[i] ^ i;
         }
         // XOR with last element
-        return res^arr.length;
+        return res ^ arr.length;
     }
 
     private static int findMissingNumberUsingSum(int[] arr) {
